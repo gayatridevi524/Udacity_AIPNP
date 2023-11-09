@@ -1,0 +1,20 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, the three model architectures classified the breed of dog in Dog_01.jpg to be the same breed "Shih-Tzu".
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, each of the three model architectures classified the breed of dog in Dog_01.jpg to be the same breed as they classified Dog_02.jpg. The breed classification for both images is "Golden Retriever" in AlexNet, ResNet, and VGG.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Yes, all three model architectures correctly classified both Animal_Name_01.jpg and Object_Name_01.jpg as not being dogs. There were no misclassifications in this regard.
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: Based on the answers for questions 1 to 3, all three model architectures, VGG, ResNet, and AlexNet, performed equally well on the uploaded image classification. They correctly classified both Dog_01.jpg and Dog_02.jpg as the same breed, "Golden Retriever."  it appears that the VGG model architecture performed the best among the three models on the uploaded image classification. It correctly classified both Dog_01.jpg and Dog_02.jpg as the same breed, "Golden Retriever," achieving a high percentage of matches (pct_match: 87.5%). Additionally, VGG also correctly classified the non-dog images, Animal_Name_01.jpg and Object_Name_01.jpg, as not being dogs. Therefore, the VGG model demonstrated the highest accuracy and consistency in breed classification for the dogs, as well as an impressive percentage of correct matches, making it the best choice among the three models for these specific uploaded image classifications.
